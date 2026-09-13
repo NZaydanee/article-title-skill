@@ -294,4 +294,4 @@ Anchor 1: STARGAZER CARTENZ
 Anchor 2: Harga baru Stargazer Cartenz
 ```
 
-Insight: the audience is interested in this product from a purchase-decision or financial angle → the title may approach pricing, value, or feature-to-price ratio. 
+Insight: the audience is interested in this product from a purchase-decision or financial angle → the title may approach pricing, value, or feature-to-price ratio.
