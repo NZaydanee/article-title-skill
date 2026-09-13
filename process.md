@@ -22,11 +22,45 @@ Take from brief and mandatory:
 - brand or product context being promoted
 - requested angle (e.g. soft selling, comparison, how-to guide)
 - constraints that affect the title
+- explicit instruction to include a specific brand or keyword in the title
 
 Ignore from brief and mandatory:
 - article structure instructions (H2, H3, paragraph count)
 - instructions about specific facts or content the article must contain
 - article writing style instructions
+
+### Default: Soft Sell
+
+**Soft selling is always the default**, regardless of the brief value — including briefs that indicate advertorial, paid content, or hard selling.
+
+Brand names, platform names, and product keywords do **not** appear in the title unless one of two exceptions applies.
+
+**Exception A — Explicit instruction in brief or mandatory**
+
+| Situation | Brand in title? |
+|---|---|
+| Brief: `"Softsell"` | No |
+| Brief: `"Advetorial"` | No |
+| Brief: `"paid content"` / `"hard selling"` | No |
+| Mandatory: brand name only (e.g. `"GoPay Games"`) | No |
+| Brief/mandatory: `"sebutkan [brand] di judul"` | Yes |
+| Brief/mandatory: `"judul harus mengandung nama brand"` | Yes |
+| Brief/mandatory: `"keyword anchor wajib muncul di judul"` | Yes |
+
+**Exception B — Anchor text 1 is the brand name**
+
+If anchor text 1 is a brand or platform name, that brand may appear in the title.
+
+Do not insert the anchor text raw — integrate it naturally into the title.
+
+```
+Anchor 1: GoPay Games
+
+❌ GoPay Games: Cara Top Up ML yang Cepat    (raw insertion)
+✓  5 Cara Top Up Mobile Legends Lebih Hemat via GoPay Games
+```
+
+When in doubt: keep the title editorial. The brand is introduced inside the article body.
 
 ---
 

@@ -195,14 +195,62 @@ Paling Lengkap
 
 ---
 
-## Soft Selling Context
+## Soft Selling — Default Behavior
 
-When the brief indicates soft selling or a guest post format, avoid titles that read as advertisements.
+**Soft selling is the default approach for all titles**, regardless of the brief value — including briefs that indicate advertorial, paid content, or hard selling.
 
-| | Example |
+Brand names, platform names, and product keywords do **not** appear in the title by default.
+
+They are introduced organically within the article body — not in the title.
+
+### Two Exceptions
+
+#### Exception A — Explicit instruction in brief or mandatory
+
+| Situation | Brand in title? |
 |---|---|
-| **Preferred** | 5 Alasan Memilih [Product] untuk Penggunaan Harian |
-| **Avoid** | [Product] Adalah Produk Terbaik yang Wajib Dibeli |
+| Brief: `"Softsell"` | No |
+| Brief: `"Advetorial"` / `"paid content"` / `"hard selling"` | No |
+| Mandatory: brand name only (e.g. `"GoPay Games"`) | No |
+| Brief/mandatory: `"sebutkan [brand] di judul"` | Yes |
+| Brief/mandatory: `"judul harus mengandung nama brand"` | Yes |
+| Brief/mandatory: `"keyword anchor wajib muncul di judul"` | Yes |
+
+#### Exception B — Anchor text 1 is the brand name
+
+If anchor text 1 is a brand or platform name, that brand may appear in the title.
+
+Do not insert the anchor text raw — integrate it naturally into the title structure.
+
+### Examples
+
+**Anchor 1: top up ml / Brief: Softsell**
+```
+✓  5 Cara Top Up Mobile Legends yang Lebih Praktis dan Hemat
+   (anchor 1 is not a brand — default applies, no brand in title)
+```
+
+**Anchor 1: GoPay Games / Anchor 2: top up ml / Brief: Softsell**
+```
+✓  5 Cara Top Up Mobile Legends Lebih Hemat via GoPay Games
+   (anchor 1 is brand — Exception B applies, brand integrated naturally)
+
+❌ GoPay Games Top Up ML — Mudah dan Cepat
+   (raw keyword insertion — not acceptable even under Exception B)
+```
+
+**Anchor 1: GoPay Games / Anchor 2: top up ff / Brief: Advetorial**
+```
+✓  5 Tips Top Up Diamond Free Fire agar Budget Tidak Jebol
+   (brief is "Advetorial" only — not explicit, default applies)
+   (even though anchor 1 is brand, Exception B gives permission but not obligation)
+```
+
+**Anchor 1: GoPay Games / Brief: Advetorial + "sertakan GoPay Games di judul"**
+```
+✓  7 Alasan Top Up Mobile Legends Lebih Praktis dengan GoPay Games
+   (explicit instruction — Exception A applies)
+```
 
 The title should create a natural editorial context in which the promoted brand or product can be introduced organically within the article body.
 
@@ -246,4 +294,4 @@ Anchor 1: STARGAZER CARTENZ
 Anchor 2: Harga baru Stargazer Cartenz
 ```
 
-Insight: the audience is interested in this product from a purchase-decision or financial angle → the title may approach pricing, value, or feature-to-price ratio.
+Insight: the audience is interested in this product from a purchase-decision or financial angle → the title may approach pricing, value, or feature-to-price ratio. 
