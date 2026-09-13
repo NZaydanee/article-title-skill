@@ -33,9 +33,9 @@ Ignore from brief and mandatory:
 
 **Soft selling is always the default**, regardless of the brief value — including briefs that indicate advertorial, paid content, or hard selling.
 
-Brand names, platform names, and product keywords do **not** appear in the title unless one of two exceptions applies.
+Brand names, platform names, and product keywords do **not** appear in the title unless there is an explicit instruction in brief or mandatory.
 
-**Exception A — Explicit instruction in brief or mandatory**
+**The only exception — Explicit instruction in brief or mandatory**
 
 | Situation | Brand in title? |
 |---|---|
@@ -43,24 +43,36 @@ Brand names, platform names, and product keywords do **not** appear in the title
 | Brief: `"Advetorial"` | No |
 | Brief: `"paid content"` / `"hard selling"` | No |
 | Mandatory: brand name only (e.g. `"GoPay Games"`) | No |
+| Anchor text 1 is a brand name | No |
 | Brief/mandatory: `"sebutkan [brand] di judul"` | Yes |
 | Brief/mandatory: `"judul harus mengandung nama brand"` | Yes |
 | Brief/mandatory: `"keyword anchor wajib muncul di judul"` | Yes |
 
-**Exception B — Anchor text 1 is the brand name**
+### Soft Sell: Prioritize Contextual Titles
 
-If anchor text 1 is a brand or platform name, that brand may appear in the title.
+When the soft-sell default applies, **prefer Contextual titles** over Direct ones.
 
-Do not insert the anchor text raw — integrate it naturally into the title.
+Approach the anchor subject through the user's underlying need, experience, problem, or goal — not the product or service directly. The anchor subject enters the article body organically.
+
+Examples across categories:
 
 ```
-Anchor 1: GoPay Games
+Anchor: top up ml
+Direct (avoid):    5 Cara Top Up Mobile Legends dengan Mudah
+Contextual (prefer): Push Rank MLBB Jadi Susah? Ini Equipment yang Sering Diabaikan
 
-❌ GoPay Games: Cara Top Up ML yang Cepat    (raw insertion)
-✓  5 Cara Top Up Mobile Legends Lebih Hemat via GoPay Games
+Anchor: tiket pesawat Jakarta-Jogja
+Direct (avoid):    5 Tips Beli Tiket Pesawat Jakarta-Jogja Murah
+Contextual (prefer): Liburan ke Jogja Tanpa Bikin Kantong Jebol, Ini Rahasianya
+
+Anchor: Hyundai Palisade
+Direct (avoid):    5 Kelebihan Hyundai Palisade yang Perlu Diketahui
+Contextual (prefer): SUV Keluarga dengan Kabin Lega, Ini yang Bikin Road Trip Jadi Berbeda
 ```
 
-When in doubt: keep the title editorial. The brand is introduced inside the article body.
+A Direct title is acceptable when no strong Contextual angle is available, or when the brief suggests a more informational approach.
+
+When in doubt: keep the title editorial. The brand or product is introduced inside the article body.
 
 ---
 

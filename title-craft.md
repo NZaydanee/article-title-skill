@@ -203,53 +203,62 @@ Brand names, platform names, and product keywords do **not** appear in the title
 
 They are introduced organically within the article body — not in the title.
 
-### Two Exceptions
+### The Only Exception — Explicit Instruction
 
-#### Exception A — Explicit instruction in brief or mandatory
+A brand or keyword enters the title **only** when brief or mandatory explicitly instructs it.
 
 | Situation | Brand in title? |
 |---|---|
 | Brief: `"Softsell"` | No |
 | Brief: `"Advetorial"` / `"paid content"` / `"hard selling"` | No |
 | Mandatory: brand name only (e.g. `"GoPay Games"`) | No |
+| Anchor text 1 is a brand name (e.g. `GoPay Games`) | No |
 | Brief/mandatory: `"sebutkan [brand] di judul"` | Yes |
 | Brief/mandatory: `"judul harus mengandung nama brand"` | Yes |
 | Brief/mandatory: `"keyword anchor wajib muncul di judul"` | Yes |
 
-#### Exception B — Anchor text 1 is the brand name
+### Prioritize Contextual Titles for Soft Sell
 
-If anchor text 1 is a brand or platform name, that brand may appear in the title.
+When the soft-sell default applies, **prefer Contextual titles** over Direct ones.
 
-Do not insert the anchor text raw — integrate it naturally into the title structure.
+The anchor subject (product, brand, service, or platform) is not addressed directly in the title. Instead, the title enters through the user's underlying need, experience, problem, or goal. The anchor is introduced organically in the article body.
 
-### Examples
+This principle applies across all content categories:
+
+| Anchor | Direct (avoid) | Contextual (preferred) |
+|---|---|---|
+| `top up ml` | 5 Cara Top Up ML yang Mudah | Push Rank MLBB Jadi Susah? Ini Equipment yang Sering Diabaikan |
+| `GoPay Games` | 5 Fitur GoPay Games yang Perlu Diketahui | Kantong Game Lo Jebol? Ini Cara Main Game Tanpa Harus Keluar Banyak |
+| `tiket pesawat Jakarta-Jogja` | 5 Tips Beli Tiket Jakarta-Jogja Murah | Liburan ke Jogja Tanpa Bikin Kantong Jebol, Ini Rahasianya |
+| `Bis Harapan Jaya` | 5 Keunggulan Bis Harapan Jaya | Perjalanan Malam Antar Kota Lebih Nyaman? Ini yang Perlu Disiapkan |
+| `Hyundai Palisade` | 5 Kelebihan Hyundai Palisade | SUV Keluarga dengan Kabin Lega, Ini yang Bikin Road Trip Jadi Berbeda |
+
+A Direct title is acceptable when no strong Contextual angle is available, or when the brief suggests an informational approach.
+
+### Soft Sell Examples
 
 **Anchor 1: top up ml / Brief: Softsell**
 ```
-✓  5 Cara Top Up Mobile Legends yang Lebih Praktis dan Hemat
-   (anchor 1 is not a brand — default applies, no brand in title)
+✓  Push Rank MLBB Jadi Susah? Ini 5 Item yang Sering Diabaikan
+   (contextual — gameplay experience, top up introduced in article body)
+
+✓  5 Cara Top Up Mobile Legends yang Lebih Efisien
+   (direct — acceptable when no strong contextual angle found)
 ```
 
 **Anchor 1: GoPay Games / Anchor 2: top up ml / Brief: Softsell**
 ```
-✓  5 Cara Top Up Mobile Legends Lebih Hemat via GoPay Games
-   (anchor 1 is brand — Exception B applies, brand integrated naturally)
+✓  Skin Favorite Abis Restock? Jangan Sampai Kehabisan, Intip Strategi Ini
+   (contextual — anchor 1 is brand but no explicit instruction, default applies)
 
-❌ GoPay Games Top Up ML — Mudah dan Cepat
-   (raw keyword insertion — not acceptable even under Exception B)
-```
-
-**Anchor 1: GoPay Games / Anchor 2: top up ff / Brief: Advetorial**
-```
-✓  5 Tips Top Up Diamond Free Fire agar Budget Tidak Jebol
-   (brief is "Advetorial" only — not explicit, default applies)
-   (even though anchor 1 is brand, Exception B gives permission but not obligation)
+❌ 5 Cara Top Up Mobile Legends Lebih Hemat via GoPay Games
+   (brand in title — violates default, no explicit instruction present)
 ```
 
-**Anchor 1: GoPay Games / Brief: Advetorial + "sertakan GoPay Games di judul"**
+**Anchor 1: GoPay Games / Brief: Softsell + "sertakan GoPay Games di judul"**
 ```
-✓  7 Alasan Top Up Mobile Legends Lebih Praktis dengan GoPay Games
-   (explicit instruction — Exception A applies)
+✓  5 Cara Top Up Game Favorit Lebih Hemat dengan GoPay Games
+   (explicit instruction — brand allowed in title)
 ```
 
 The title should create a natural editorial context in which the promoted brand or product can be introduced organically within the article body.
@@ -294,4 +303,4 @@ Anchor 1: STARGAZER CARTENZ
 Anchor 2: Harga baru Stargazer Cartenz
 ```
 
-Insight: the audience is interested in this product from a purchase-decision or financial angle → the title may approach pricing, value, or feature-to-price ratio.
+Insight: the audience is interested in this product from a purchase-decision or financial angle → the title may approach pricing, value, or feature-to-price ratio. 
